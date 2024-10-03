@@ -1,0 +1,2 @@
+INDEX VERSION 1.134+/mnt/arquivos/ednilson/workspace/sin_inoo_2024s2/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
