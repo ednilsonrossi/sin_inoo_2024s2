@@ -1,8 +1,8 @@
 package br.edu.inoo;
 
 public class ContaBancaria {
-	public String titular;
-	public double saldo;
+	private String titular;
+	private double saldo;
 
 	public boolean saque(double valor) {
 		if (saldo >= valor && valor >= 0) {
@@ -18,6 +18,14 @@ public class ContaBancaria {
 		}
 	}
 
+	public String getTitular() {
+		return titular.toUpperCase();
+	}
+	
+	public double getSaldo() {
+		return saldo;
+	}
+	
 	public String imprime() {
 		return "Titular: " + titular + "  Saldo bancário: R$ " + saldo;
 	}
