@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="br.edu.ifsp.inoo.Calculadora"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="br.edu.ifsp.inoo.Triangulo"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="br.edu.ifsp.inoo.Dice"/>
+    <fullyQualifiedTypeName name="br.edu.ifsp.inoo.USMoney"/>
 </qualifiedTypeNameHistroy>
