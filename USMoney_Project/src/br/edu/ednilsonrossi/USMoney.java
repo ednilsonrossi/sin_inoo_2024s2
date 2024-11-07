@@ -1,4 +1,4 @@
-package br.edu.ifsp.inoo;
+package br.edu.ednilsonrossi;
 
 public class USMoney {
 	private int dollar;
