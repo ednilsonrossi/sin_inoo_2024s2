@@ -16,7 +16,8 @@ public class AlunoESDD extends Aluno {
 	}
 
 	public void setAvaliacao3(double avaliacao3) {
-		this.avaliacao3 = avaliacao3 >= 0 && avaliacao3 <= 10 ? avaliacao3 : 0;
+		//this.avaliacao3 = avaliacao3 >= 0 && avaliacao3 <= 10 ? avaliacao3 : 0;
+		this.avaliacao3 = validarNota(avaliacao3);
 	}
 
 	private void calcularNotaFinal() {

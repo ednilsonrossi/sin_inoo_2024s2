@@ -6,7 +6,7 @@ public class Aluno {
 	private double avaliacao2;
 	private double ncc;
 	private double ifa;
-
+	
 	public Aluno(String nome, double avaliacao1, double avaliacao2) {
 		setNome(nome);
 		setAvaliacao1(avaliacao1);
@@ -96,17 +96,19 @@ public class Aluno {
 		string += "Situação: " + getSituacao();
 		return string;
 	}
-
-	private void calcularNotaFinal() {
-		if (ifa == -1)
-			ncc = (avaliacao1 + avaliacao2) / 2;
-	}
-
-	private double validarNota(double nota) {
+	
+	protected double validarNota(double nota) {
 		if (nota >= 0 && nota <= 10) {
 			return nota;
 		} else {
 			return 0.0;
 		}
 	}
+
+	private void calcularNotaFinal() {
+		if (ifa == -1)
+			ncc = (avaliacao1 + avaliacao2) / 2;
+	}
+
+	
 }
